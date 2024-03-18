@@ -19,3 +19,15 @@ It is a rest API in nodeJS with express that I created to add user tickets to re
 -Database Storage: Uses some database to store logged tickets, which allows retrieval and management of stored tickets at a later time.
 
 -Data Validation: Performs validations of the data provided by the user to ensure that it is in the correct format and meets the necessary requirements before registering the ticket.
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`BOTTOKEN` : Discord bot requirement
+
+`BOTCLIENTID` : Discord bot requirement
+
+`BOTSUPPORTCHANNELNAME` : Discord bot requirement
+
+`MONGO_URI` : URI MONGO
+
